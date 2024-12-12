@@ -1,5 +1,11 @@
 import { Box } from "@chakra-ui/react";
+import { SignUpForm } from "features/sign-up";
+import { theme } from "theme";
 
 export const SignUp = () => {
-  return <Box bg="blue.800">Sign Up</Box>;
+  return (
+    <Box bg={theme.bg} className="container" width="100%" mt={8}>
+      <SignUpForm />
+    </Box>
+  );
 };

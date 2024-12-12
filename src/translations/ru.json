@@ -1,5 +1,17 @@
 {
-  "sign-in": "Авторизация",
-  "home": "Главная",
-  "sign-up": "Регистрация"
+  "translation": {
+    "sign-in": "Sign-In",
+    "home": "Home",
+    "sign-up": "Sign-Up",
+    "sign-up-schema": {
+      "email": "E-Mail обязателен",
+      "email-invalid": "E-Mail is not valid",
+      "password": "Password обязателен",
+      "password-length": "Password should be at least 8 characters long",
+      "password-not-equal": "The password does not seem to be repeated",
+      "min": "Minimum {{count}} characters",
+      "required": "Field обязателен",
+      "register": "Sign Up"
+    }
+  }
 }

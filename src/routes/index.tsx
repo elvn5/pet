@@ -16,19 +16,16 @@ export const routes: RouteConfig[] = [
       {
         element: <Home />,
         path: "/",
-        children: [],
         key: "2",
       },
       {
         element: <SignIn />,
         path: "/sign-in",
-        children: [],
         key: "3",
       },
       {
         element: <SignUp />,
         path: "/sign-up",
-        children: [],
         key: "4",
       },
     ],

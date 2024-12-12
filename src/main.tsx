@@ -7,7 +7,7 @@ import { ColorModeProvider } from "components/ui/color-mode.tsx";
 import { themeSystem } from "theme/index.ts";
 import { routes } from "routes/index.tsx";
 
-import "translations/init-i18n";
+import "./i18n";
 
 import "styles/index.scss";
 
